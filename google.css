@@ -1,0 +1,33 @@
+div{display: block;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head:link{
+    text-decoration: none;
+    color: black
+}
+
+.head:visited{
+    text-decoration: none;
+    color: #660099
+}
+
+.head:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: black
+}
+
+.head:active{
+    text-decoration: none;
+    color: black
+}
+
+.head{
+
+padding-left: 15px;
+opacity: 0.75;
+font-size: 15px;
+}
