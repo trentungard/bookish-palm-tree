@@ -2,73 +2,86 @@ div{display: block;}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
 }
 
 li{
 display: inline;
 }
+
+input{ 
+display: inline; 
+width: 500px; 
+position: absolute; 
+margin: 0 auto; 
+cursor: text; 
+margin-left: 440px; 
+-webkit-appearance:searchfield; 
+-moz-appearance: textfield;
+top: 55%;
+left: 0%
+}
+
+ul{
+background-color:#f7f7f7;
+text-decoration-color: #e0e1e2;
+}
+
 .head:link{
-    text-decoration: none;
-    color: black
+text-decoration: none;
+color: black
 }
 
 .head:visited{
-    text-decoration: none;
-    color: #660099
+text-decoration: none;
+color: #660099;
 }
 
 .head:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    color: black
+cursor: pointer;
+text-decoration: underline;
+color: black
 }
 
 .head:active{
-    text-decoration: none;
-    color: black
+text-decoration: none;
+color: black
 }
 
 .head{
-
 padding-left: 15px;
 opacity: 0.75;
 font-size: 15px;
 }
 
 .foot{
-    margin-left: 15px;
-    opacity: 0.75;
-    font-size: 15px;
-    margin-top: 100px;
-    
+margin-left: 15px;
+opacity: 0.75;
+font-size: 15px;
+margin-top: 100px; 
 }
 
 .foot:link{
-    text-decoration: none;
-    color: black
+text-decoration: none;
+color: black
 }
 
 .foot:visited{
-    text-decoration: none;
-    color: #660099
+text-decoration: none;
+color: #660099;
 }
 
 .foot:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    color: black
+cursor: pointer;
+text-decoration: underline;
+color: black
 }
 
 .foot:active{
-    text-decoration: none;
-    color: black
+text-decoration: none;
+color: black
 }
 
-ul{
-
-background-color:#f7f7f7;
-text-decoration-color: #e0e1e2;
-}
 .fbar{
 background:#e5e5e5;
 border: 1px solid lightgray; 
@@ -80,4 +93,51 @@ margin-right: 0 auto;
 margin-left: 0 auto;
 bottom: 0;
 position: absolute;
+}
+
+.mic:hover{
+cursor: pointer;
+}
+
+.apps:hover{
+cursor: pointer
+}
+
+.sign:hover{
+cursor: pointer;
+}
+
+.mic{
+display: inline;
+position: absolute;
+left: 67%;
+top: 56%;
+height: 20px; 
+width: 20px; 
+}
+
+.logo{
+height: 160px; 
+width: 290px; 
+padding-top: 130px; 
+padding-left: 550px; 
+display: inline;
+position: absolute"
+}
+
+.apps{
+position: absolute;
+left: 94%;
+width: 27px;
+height: 27px;
+
+}
+
+.sign{
+display: inline;
+position: absolute;
+width: 50px; 
+height: 30px;
+left:96%;
+
 }
